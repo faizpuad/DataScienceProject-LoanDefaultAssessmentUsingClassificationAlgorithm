@@ -71,12 +71,23 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# cvs
+loan_default_data_train.csv
+
+# txt
+notes.txt
+
+# md
+Result.md
+
 # PyBuilder
 .pybuilder/
 target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+remove_EDA_Visual.ipynb
+remove_model_training.ipynb
 
 # IPython
 profile_default/
@@ -129,6 +140,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+myenv/
 
 # Spyder project settings
 .spyderproject
